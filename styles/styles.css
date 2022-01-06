@@ -134,6 +134,7 @@ p .text,
   align-items: center;
 }
 
+.quote {
   padding: 20px;
   width: 60vw;
   font-size: 24px;
