@@ -48,6 +48,15 @@ button {
   align-items: center;
 }
 
+.header-logo-text {
+  font-size: 24px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
 #header-extra .box-text {
   width: 40vw;
   height: auto;
@@ -70,11 +79,16 @@ ul {
 }
 
 ul li {
-  padding: 10px;
+  padding: 20px;
 }
 
 ul .links {
   text-decoration: none;
+}
+
+p .text,
+#header .links {
+  font-size: 18px;
   color: #e5e7eb;
 }
 
@@ -85,6 +99,10 @@ ul .links {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+}
+
+.informative .information-header {
+  font-size: 36px;
 }
 
 .informative .information-header,
@@ -105,7 +123,7 @@ ul .links {
   width: 15vw;
   height: 15vw;
   border-radius: 8px;
-  box-shadow: 5px 3px lightgray;
+  border: 2px solid #3883f6;
 }
 
 /* quote section */
@@ -116,8 +134,11 @@ ul .links {
   align-items: center;
 }
 
-.quote {
+  padding: 20px;
   width: 60vw;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
 }
 
 /* call to action message */
@@ -139,6 +160,10 @@ ul .links {
 
 .call-to-action .left-side {
   width: 40vw;
+}
+
+.call-to-action .action-main {
+  font-size: 18px;
 }
 
 .call-to-action button {
